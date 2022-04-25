@@ -39,19 +39,20 @@ class Stories extends StatelessWidget {
                 ),
               ),
               Container(
-                  width: 68,
-                  height: 68,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
+                width: 68,
+                height: 68,
+                decoration: const BoxDecoration(
+                  shape: BoxShape.circle,
+                ),
+                child: const CircleAvatar(
+                  backgroundImage: AssetImage(
+                    "assets/storie/ProfilePic.png",
                   ),
-                  child: const CircleAvatar(
-                    backgroundImage: AssetImage(
-                      "assets/storie/ProfilePic.png",
-                    ),
-                  )),
+                ),
+              ),
             ],
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 7),
           const Text('MyName'),
         ],
       ),
